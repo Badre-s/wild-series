@@ -1,9 +1,5 @@
 // Load environment variables from .env file
 import "dotenv/config";
-import type { Request, Response } from "express";
-app.get("/", (req: Request, res: Response) => {
-	res.send("Welcome to Wild Series !");
-});
 
 // Check database connection
 // Note: This is optional and can be removed if the database connection
